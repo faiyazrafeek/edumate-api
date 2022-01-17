@@ -23,6 +23,16 @@
     },
     "sub_header": {
       "type": "string"
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.footer"
+    },
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step.step"
     }
   }
 }

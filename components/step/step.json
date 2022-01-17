@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_step_steps",
+  "info": {
+    "name": "Step",
+    "icon": "angle-double-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    },
+    "module": {
+      "type": "component",
+      "repeatable": true,
+      "component": "module.module"
+    }
+  }
+}

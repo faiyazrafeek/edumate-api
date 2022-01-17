@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "steps",
+  "info": {
+    "name": "Step",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "step": {
+      "type": "component",
+      "repeatable": true,
+      "component": "step.step"
+    }
+  }
+}

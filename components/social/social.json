@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_social_socials",
+  "info": {
+    "name": "Social",
+    "icon": "globe-africa",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

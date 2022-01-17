@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_module_modules",
+  "info": {
+    "name": "Module",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "string"
+    }
+  }
+}

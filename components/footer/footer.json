@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "name": "Footer",
+    "icon": "arrow-down"
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social.social"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
