@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "courses",
+  "info": {
+    "name": "course"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "integer"
+    },
+    "desc": {
+      "type": "richtext"
+    },
+    "link": {
+      "type": "string"
+    },
+    "payment": {
+      "type": "string"
+    }
+  }
+}

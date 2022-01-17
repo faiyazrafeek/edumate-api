@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "name": "home",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "header": {
+      "type": "text"
+    },
+    "features": {
+      "type": "dynamiczone",
+      "components": [
+        "feature.feature"
+      ]
+    },
+    "sub_header": {
+      "type": "string"
+    }
+  }
+}
